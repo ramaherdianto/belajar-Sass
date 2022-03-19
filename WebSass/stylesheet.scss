@@ -1,5 +1,11 @@
 @import "variables";
 
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
 @mixin card($color) {
   padding: 40px 28px;
   margin: 16px 8px;
