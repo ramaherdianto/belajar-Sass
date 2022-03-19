@@ -21,6 +21,11 @@ header {
   margin: 0 auto 32px;
   background-color: #ffffff;
 }
+.profile img {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+}
 .profile .info {
   margin-top: 16px;
 }
@@ -41,6 +46,9 @@ header {
 .html img {
   margin: 16px auto 20px;
   display: block;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
 }
 .html a {
   padding: 16px 32px;
@@ -48,10 +56,12 @@ header {
   border-radius: 26px;
   display: inline-block;
   color: #1bd7cf;
+  transition: all 0.4s ease-in-out;
 }
 .html a:hover {
   background-color: #15aaa3;
   color: #ffffff;
+  transition: all 0.4s ease-in-out;
 }
 
 .javascript {
@@ -67,6 +77,9 @@ header {
 .javascript img {
   margin: 16px auto 20px;
   display: block;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
 }
 .javascript a {
   padding: 16px 32px;
@@ -74,36 +87,43 @@ header {
   border-radius: 26px;
   display: inline-block;
   color: #ffe400;
+  transition: all 0.4s ease-in-out;
 }
 .javascript a:hover {
   background-color: #ccb600;
   color: #ffffff;
+  transition: all 0.4s ease-in-out;
 }
 
-.ruby {
+.sass {
   padding: 40px 28px;
   margin: 16px 8px;
   display: inline-block;
-  background-color: #ff768a;
+  background-color: #fc7fab;
   border-radius: 3px;
 }
-.ruby h4 {
-  color: #ff1033;
+.sass h4 {
+  color: #fa1b6a;
 }
-.ruby img {
+.sass img {
   margin: 16px auto 20px;
   display: block;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
 }
-.ruby a {
+.sass a {
   padding: 16px 32px;
   background-color: #ffffff;
   border-radius: 26px;
   display: inline-block;
-  color: #ff768a;
+  color: #fc7fab;
+  transition: all 0.4s ease-in-out;
 }
-.ruby a:hover {
-  background-color: #ff435e;
+.sass a:hover {
+  background-color: #fb4d8a;
   color: #ffffff;
+  transition: all 0.4s ease-in-out;
 }
 
 footer {
